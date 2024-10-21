@@ -8,13 +8,9 @@ import org.vikos.data.processor.CSVToSKUMapper.*;
 import org.vikos.data.processor.LanguageDetector;
 
 import java.io.FileReader;
-import java.io.IOException;
+
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.Spliterator;
 import java.util.stream.StreamSupport;
 
